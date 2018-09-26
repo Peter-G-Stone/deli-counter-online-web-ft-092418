@@ -1,5 +1,7 @@
 def line(deliLine)
-    
+  statement = "The line is currently"
+  if deliLine.size == 0 
+    statement.push(" empty.")
 end 
 
 
