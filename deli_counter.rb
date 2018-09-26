@@ -19,7 +19,7 @@ end
 
 def take_a_number(deliLine, newPers)
   deliLine.push(newPers)
-  statement = "Welcome #{newPers}. You are number #{deliLine.size} in line."
+  statement = "Welcome, #{newPers}. You are number #{deliLine.size} in line."
   puts statement
 end 
 
