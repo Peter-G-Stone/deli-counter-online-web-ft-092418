@@ -1,5 +1,4 @@
 def line(deliLine)
-  
   statement = "The line is currently"
   i = 1
   
@@ -17,8 +16,9 @@ def line(deliLine)
 end 
 
 
+
 def take_a_number(deliLine, newPers)
-  
+  statement = "Welcome #{newPers}. You are number #{deliLine.size} in line."
 end 
 
 
